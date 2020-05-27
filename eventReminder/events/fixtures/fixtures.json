@@ -1,0 +1,71 @@
+[
+   {
+    "model" : "events.eventDetail",
+    "pk" : "W012A3CDE",
+    "fields" :{
+        "realName" : "Egon Spengler",
+        "timeZone" : "America/Los_Angeles"
+      }
+  },
+  {
+    "model" : "events.eventDetail",
+    "pk" : "W07QCRPA4",
+    "fields" :{
+        "realName" : "Glinda South",
+        "timeZone" : "Asia/Kolkata"
+      }
+  },{
+    "model" : "events.eventTime",
+    "pk" : 1,
+    "fields" : {
+      "eventDetail" : "W012A3CDE",
+      "startTime" : "Feb 1 2020  1:33PM",
+      "endTime" : "Feb 1 2020 1:54PM"
+    }
+  },
+  {
+    "model" : "events.eventTime",
+    "pk" : 2,
+    "fields" : {
+       "eventDetail" : "W012A3CDE",
+      "startTime": "Mar 1 2020  11:11AM",
+      "endTime": "Mar 1 2020 2:00PM"
+    }
+  },
+  {
+    "model" : "events.eventTime",
+    "pk" : 3,
+    "fields" : {
+       "eventDetail" : "W012A3CDE",
+      "startTime": "Mar 16 2020  5:33PM",
+      "endTime": "Mar 16 2020 8:02PM"
+    }
+  },
+  {
+    "model" : "events.eventTime",
+    "pk" : 4,
+    "fields" : {
+       "eventDetail" : "W07QCRPA4",
+      "startTime": "Feb 1 2020  1:33PM",
+      "endTime": "Feb 1 2020 1:54PM"
+    }
+  },
+  {
+    "model" : "events.eventTime",
+    "pk" : 5,
+    "fields" : {
+      "eventDetail" : "W07QCRPA4",
+      "startTime": "Mar 1 2020  11:11AM",
+      "endTime": "Mar 1 2020 2:00PM"
+    }
+  },
+  {
+    "model" : "events.eventTime",
+    "pk" : 6,
+    "fields" : {
+      "eventDetail" : "W07QCRPA4",
+      "startTime": "Mar 16 2020  5:33PM",
+      "endTime": "Mar 16 2020 8:02PM"
+    }
+  }
+]
